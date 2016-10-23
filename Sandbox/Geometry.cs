@@ -7,6 +7,17 @@ namespace Sandbox
 {
     public class Geometry
     {
-    
+        //constructor
+        public Geometry()
+        {
+        }
+
+
+        
+
+
+
+
+
     }
 }

@@ -14,13 +14,14 @@ namespace Sandbox
 
         public double CalculateRectanglePerimeter(double sideA, double sideB)
         {
-            perimeter = 2 * sideA + 2 * sideB;
+            double perimeter = 2 * sideA + 2 * sideB;
             return perimeter;
         }
 
-        public double CalculateRectangleArea(double sideA, double sideB)
-
+        public double CalculateRectangleArea(double sideA, double sideB
         {
+            double area = sideA * sideB;
+            return area;
         }
 
 

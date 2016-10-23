@@ -18,13 +18,17 @@ namespace Sandbox
             return perimeter;
         }
 
-        public double CalculateRectangleArea(double sideA, double sideB
+        public double CalculateRectangleArea(double sideA, double sideB)
         {
             double area = sideA * sideB;
             return area;
         }
 
-
+        public double CalculateCircleArea(double radius)
+        {
+            double radius = 3,1416 * radius * radius;
+            return radius;
+        }
 
 
 
